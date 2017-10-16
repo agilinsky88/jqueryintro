@@ -1,0 +1,41 @@
+body {
+  font-family: arial, helvetica, sans-serif;
+  font-size: 16px;
+  background-color: black;
+  color: white;
+}
+h1 {
+  color: #BF55EC;
+  text-align: center;
+  font-size: 350%;
+}
+main {
+  text-align: center;
+}
+form {
+  margin: 5px;
+}
+input {
+  margin: 10px;
+  padding: 5px;
+}
+#question {
+  border: none;
+  border-bottom: 1px solid #333;
+  width: 320px;
+  background-color: grey;
+  color: white;
+}
+#submit {
+  background-color: #BF55EC;
+  border: none;
+  border-radius: 5px;
+  padding: 6px;
+  color: #DADFE1;
+}
+input:focus {
+  outline: none;
+}
+#ballAnswers {
+  color: #BF55EC;
+}
